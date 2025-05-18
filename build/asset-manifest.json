@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pizza-menu/static/css/main.3637a5d3.css",
-    "main.js": "/Pizza-menu/static/js/main.bc0c920f.js",
+    "main.js": "/Pizza-menu/static/js/main.de99b05e.js",
     "static/media/cake.png": "/Pizza-menu/static/media/cake.45c2052382ddeb00859c.png",
     "static/media/fruit-kebab.png": "/Pizza-menu/static/media/fruit-kebab.b15875b5e996f1b9e59e.png",
     "static/media/soup1.png": "/Pizza-menu/static/media/soup1.0595c18ab565b78f5c04.png",
@@ -27,6 +27,7 @@
     "static/media/GreatVibes-Regular.eot": "/Pizza-menu/static/media/GreatVibes-Regular.b104b5375e1745c00212.eot",
     "static/media/GreatVibes-Regular.ttf": "/Pizza-menu/static/media/GreatVibes-Regular.57097753dd55dcf2137b.ttf",
     "static/media/Courgette-Regular.eot": "/Pizza-menu/static/media/Courgette-Regular.b5dad6390e8e278e3494.eot",
+    "static/media/sprite.svg": "/Pizza-menu/static/media/sprite.3bf5cd7ba9fddb45f7c566d276ca1418.svg",
     "static/media/OoohBaby-Regular.woff": "/Pizza-menu/static/media/OoohBaby-Regular.0b1e0449b7802fb5ddf0.woff",
     "static/media/OpenSans-Regular.woff": "/Pizza-menu/static/media/OpenSans-Regular.001bb5d73e11f1f3b04a.woff",
     "static/media/Arizonia-Regular.woff": "/Pizza-menu/static/media/Arizonia-Regular.6bc37d80595f32356667.woff",
@@ -52,10 +53,10 @@
     "static/media/KottaOne-Regular.woff2": "/Pizza-menu/static/media/KottaOne-Regular.12e07885fd5bf1978b2d.woff2",
     "index.html": "/Pizza-menu/index.html",
     "main.3637a5d3.css.map": "/Pizza-menu/static/css/main.3637a5d3.css.map",
-    "main.bc0c920f.js.map": "/Pizza-menu/static/js/main.bc0c920f.js.map"
+    "main.de99b05e.js.map": "/Pizza-menu/static/js/main.de99b05e.js.map"
   },
   "entrypoints": [
     "static/css/main.3637a5d3.css",
-    "static/js/main.bc0c920f.js"
+    "static/js/main.de99b05e.js"
   ]
 }
