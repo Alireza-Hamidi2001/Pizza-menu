@@ -1,0 +1,32 @@
+.menu {
+    background-color: rgb(157, 119, 22);
+    min-height: 70vh;
+    padding: 2rem;
+    position: relative;
+
+    @include respond(tab-land) {
+        padding: 4rem 0;
+    }
+
+    & h2 {
+        text-transform: uppercase;
+        font-family: "Coiny";
+        font-size: 2.2rem;
+        word-spacing: 1rem;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &::before,
+        &::after {
+            display: block;
+            content: "";
+            width: 8rem;
+            height: 0.2rem;
+            background-color: black;
+            text-align: center;
+            margin: 0 2rem;
+        }
+    }
+}

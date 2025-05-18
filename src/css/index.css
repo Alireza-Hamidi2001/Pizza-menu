@@ -1,0 +1,352 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 41.56em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "nunito-sans", sans-serif !important;
+  line-height: 1.8;
+}
+body > div {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Monoton";
+  src: url("../../src/assets/fonts/Monoton/Monoton-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/Monoton/Monoton-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/Monoton/Monoton-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/Monoton/Monoton-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("../../src/assets/fonts/Caveat/Caveat-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/Caveat/Caveat-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/Caveat/Caveat-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "ComicNeue";
+  src: url("../../src/assets/fonts/ComicNeue/ComicNeue-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/ComicNeue/ComicNeue-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/ComicNeue/ComicNeue-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "open-sans";
+  src: url("../../src/assets/fonts/open-sans/OpenSans-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/open-sans/OpenSans-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/open-sans/OpenSans-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "KottaOne";
+  src: url("../../src/assets/fonts/KottaOne/KottaOne-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/KottaOne/KottaOne-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/KottaOne/KottaOne-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Coiny";
+  src: url("../../src/assets/fonts/demo/Coiny/Coiny-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/demo/Coiny/Coiny-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/demo/Coiny/Coiny-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/demo/Coiny/Coiny-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Courgette";
+  src: url("../../src/assets/fonts/demo/Courgette/Courgette-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/demo/Courgette/Courgette-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/demo/Courgette/Courgette-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/demo/Courgette/Courgette-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HomemadeApple";
+  src: url("../../src/assets/fonts/demo/Homemade_Apple/HomemadeApple-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/demo/Homemade_Apple/HomemadeApple-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/demo/Homemade_Apple/HomemadeApple-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/demo/Homemade_Apple/HomemadeApple-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arizonia";
+  src: url("../../src/assets/fonts/Arizonia/Arizonia-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/Arizonia/Arizonia-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/Arizonia/Arizonia-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/Arizonia/Arizonia-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fantacy";
+  src: url("../../src/assets/fonts/Oooh_Baby/OoohBaby-Regular.ttf") format("eot");
+  src: url("../../src/assets/fonts/Oooh_Baby/OoohBaby-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/Oooh_Baby/OoohBaby-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/Oooh_Baby/OoohBaby-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "SherlockHolmes";
+  src: url("../../src/assets/fonts/GreatVibes/GreatVibes-Regular.eot") format("eot");
+  src: url("../../src/assets/fonts/GreatVibes/GreatVibes-Regular.ttf") format("ttf");
+  src: url("../../src/assets/fonts/GreatVibes/GreatVibes-Regular.woff") format("woff");
+  src: url("../../src/assets/fonts/GreatVibes/GreatVibes-Regular.woff2") format("woff2");
+  font-style: normal;
+}
+.heading-primary {
+  font-family: "Monoton";
+  font-size: 5rem;
+  font-weight: 400;
+  word-spacing: 2rem;
+  color: black;
+}
+@media only screen and (max-width: 41.56em) {
+  .heading-primary {
+    font-size: 3rem;
+  }
+}
+
+.heading-tertiary {
+  font-family: "HomemadeApple";
+  text-transform: lowercase;
+  color: rgb(255, 229, 163);
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.menu {
+  background-color: rgb(157, 119, 22);
+  min-height: 70vh;
+  padding: 2rem;
+  position: relative;
+}
+@media only screen and (max-width: 75em) {
+  .menu {
+    padding: 4rem 0;
+  }
+}
+.menu h2 {
+  text-transform: uppercase;
+  font-family: "Coiny";
+  font-size: 2.2rem;
+  word-spacing: 1rem;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu h2::before, .menu h2::after {
+  display: block;
+  content: "";
+  width: 8rem;
+  height: 0.2rem;
+  background-color: black;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.pizzaContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important;
+  column-gap: 8rem;
+  row-gap: 4rem;
+}
+@media only screen and (max-width: 87.5em) {
+  .pizzaContainer {
+    grid-template-columns: repeat(2, 1fr) !important;
+    column-gap: 4rem;
+    row-gap: 6rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .pizzaContainer {
+    column-gap: 2rem;
+  }
+}
+@media only screen and (max-width: 41.56em) {
+  .pizzaContainer {
+    grid-template-columns: 1fr !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.pizzaContainer > * {
+  justify-content: center;
+}
+
+.pizza {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 56.25em) {
+  .pizza {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .pizza {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 41.56em) {
+  .pizza {
+    width: max-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.pizza > img {
+  width: 12rem;
+  height: fit-content;
+}
+.details {
+  padding: 2rem 0 2rem 2rem;
+  text-align: left;
+}
+@media only screen and (max-width: 75em) {
+  .details {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 41.56em) {
+  .details {
+    width: 100;
+  }
+}
+
+.pizza__list {
+  font-family: "nunito-sans", sans-serif;
+  color: rgb(46, 40, 7);
+  margin-top: 0.5rem;
+  font-weight: 600;
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+}
+@media only screen and (max-width: 87.5em) {
+  .pizza__list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 75em) {
+  .pizza__list {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media only screen and (max-width: 41.56em) {
+  .pizza__list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+.pizza__item {
+  font-size: 1.2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.pizza__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(255, 229, 163);
+}
+
+.price {
+  font-family: "ComicNeue";
+  font-size: 3.2rem;
+  color: rgb(255, 229, 163);
+  font-weight: 300;
+}
+
+.empty {
+  font-size: 4rem;
+  font-family: "Caveat", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.soldOut {
+  filter: grayscale(1) !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rosybrown;
+}
+
+.header {
+  padding: 1rem;
+  background-color: goldenrod;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 41.56em) {
+  .header {
+    min-height: 15vh;
+  }
+}
+
+.footer {
+  background-color: rgb(89, 68, 13);
+  color: aliceblue;
+  min-height: 10vh;
+  font-size: 1.4rem;
+  font-family: "ComicNeue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.footer__btn-order {
+  background-color: rgb(201, 151, 23);
+  border: none;
+  padding: 1.5rem 3rem;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-family: "ComicNeue", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 8rem;
+  box-shadow: 0 0.3rem 0.7rem aliceblue;
+}
+.footer__btn-order:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.3rem 1rem aliceblue;
+}
+
+/*# sourceMappingURL=index.css.map */

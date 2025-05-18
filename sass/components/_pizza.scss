@@ -1,0 +1,143 @@
+.pizzaContainer {
+    width: 80%;
+    // background-color: red;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    column-gap: 8rem;
+    row-gap: 4rem;
+
+    @include respond(big-desktop) {
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 4rem;
+        row-gap: 6rem;
+    }
+
+    @include respond(tab-land) {
+        // width: 90%;
+    }
+
+    @include respond(tab-port) {
+        column-gap: 2rem;
+        // width: 98%;
+    }
+
+    @include respond(phone) {
+        grid-template-columns: 1fr !important;
+        // width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &>* {
+        justify-content: center;
+    }
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include respond(tab-port) {
+        justify-content: center;
+    }
+
+    @include respond(tab-port) {
+        justify-content: flex-start;
+    }
+
+    @include respond(phone) {
+        width: max-content;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &>img {
+        width: 12rem;
+        height: fit-content;
+
+        @include respond(phone) {
+            // margin-right: auto;
+        }
+    }
+}
+
+.details {
+    padding: 2rem 0 2rem 2rem;
+    text-align: left;
+
+    @include respond(tab-land) {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    @include respond(phone) {
+        width: 100;
+    }
+
+}
+
+.pizza__list {
+    font-family: "nunito-sans", sans-serif;
+    color: rgb(46, 40, 7);
+    margin-top: 0.5rem;
+    font-weight: 600;
+    margin-bottom: auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+
+    @include respond(big-desktop) {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    @include respond(tab-land) {
+        grid-template-columns: 1fr !important;
+    }
+
+    @include respond(phone) {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+.pizza__item {
+    font-size: 1.2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    @include respond(phone) {
+        // margin: 0 auto;
+    }
+}
+
+.pizza__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: rgb(255, 229, 163);
+
+}
+
+.price {
+    font-family: "ComicNeue";
+    font-size: 3.2rem;
+    color: rgb(255, 229, 163);
+    font-weight: 300;
+}
+
+.empty {
+    font-size: 4rem;
+    font-family: "Caveat", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.soldOut {
+    filter: grayscale(1) !important;
+}

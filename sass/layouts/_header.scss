@@ -1,0 +1,13 @@
+.header {
+    padding: 1rem;
+    background-color: goldenrod;
+    min-height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include respond(phone) {
+        min-height: 15vh;
+    }
+}
