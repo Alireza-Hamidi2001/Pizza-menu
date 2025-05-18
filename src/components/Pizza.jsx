@@ -1,4 +1,4 @@
-import { pizzaData } from "../data/data";
+import sprite from "../assets/SVGs/sprite.svg";
 
 function Pizza({ photoName, name, ingredients, price, soldOut }) {
     // if (soldOut) return null;
@@ -14,7 +14,9 @@ function Pizza({ photoName, name, ingredients, price, soldOut }) {
                     {ingredients.map((ingredient) => (
                         <li className="pizza__item">
                             <svg className="pizza__icon">
-                                <use xlinkHref="/SVGs/sprite.svg#icon-keyboard_arrow_right"></use>
+                                <use
+                                    xlinkHref={`${sprite}#icon-keyboard_arrow_right`}
+                                ></use>
                             </svg>
                             {ingredient}
                         </li>
