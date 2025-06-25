@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pizza-menu/static/css/main.3637a5d3.css",
-    "main.js": "/Pizza-menu/static/js/main.de99b05e.js",
+    "main.css": "/Pizza-menu/static/css/main.5db5d9e8.css",
+    "main.js": "/Pizza-menu/static/js/main.0cef4ec3.js",
     "static/media/cake.png": "/Pizza-menu/static/media/cake.45c2052382ddeb00859c.png",
     "static/media/fruit-kebab.png": "/Pizza-menu/static/media/fruit-kebab.b15875b5e996f1b9e59e.png",
     "static/media/soup1.png": "/Pizza-menu/static/media/soup1.0595c18ab565b78f5c04.png",
@@ -52,11 +52,11 @@
     "static/media/ComicNeue-Regular.woff2": "/Pizza-menu/static/media/ComicNeue-Regular.cd2823420a7c3652f783.woff2",
     "static/media/KottaOne-Regular.woff2": "/Pizza-menu/static/media/KottaOne-Regular.12e07885fd5bf1978b2d.woff2",
     "index.html": "/Pizza-menu/index.html",
-    "main.3637a5d3.css.map": "/Pizza-menu/static/css/main.3637a5d3.css.map",
-    "main.de99b05e.js.map": "/Pizza-menu/static/js/main.de99b05e.js.map"
+    "main.5db5d9e8.css.map": "/Pizza-menu/static/css/main.5db5d9e8.css.map",
+    "main.0cef4ec3.js.map": "/Pizza-menu/static/js/main.0cef4ec3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3637a5d3.css",
-    "static/js/main.de99b05e.js"
+    "static/css/main.5db5d9e8.css",
+    "static/js/main.0cef4ec3.js"
   ]
 }
