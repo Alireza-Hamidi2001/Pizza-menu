@@ -1,0 +1,46 @@
+.section-form {
+    background-color: rgb(176, 176, 58);
+
+    p {
+        margin: 3rem 0;
+        font-size: 3rem;
+        font-family: "Caveat";
+    }
+}
+
+.form {
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+        max-width: 75%;
+        gap: 1rem;
+    }
+}
+
+input,
+select {
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: none;
+
+    &::placeholder {
+        color: rgb(163, 163, 163);
+        font-family: "Caveat", sans-serif;
+        font-size: 2rem;
+    }
+
+    &:focus:invalid {
+        outline: 1px solid red;
+    }
+
+    &:focus:valid {
+        outline: 2px solid green;
+    }
+}
